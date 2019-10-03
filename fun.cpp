@@ -3,15 +3,15 @@
 void fun_i(char,int);
 int main()
 {
-int nin;
+int n;
 char chin;
 cout<<"enter the value of chin and nin";
-cin>>nin>>chin;
-fun_i(chin,nin);
+cin>>n>>chin;
+fun_i(chin,n);
 cout<<"data type \t range";
 cout<<"int \t -32767 to 32768";
 cout<<"char \t 127 to -128";
-fun_i(chin,nin);
+fun_i(chin,n);
 }
 //////////////////////////////////
 void fun_i(char a,int b)
